@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FlyBehavior">
+      <UniqueIdentifier>{3131f001-875d-4c00-961d-0ad7ba94e50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlyBehavior\소스 파일">
+      <UniqueIdentifier>{fcb7e449-ad79-4751-ad8e-227eecde3158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlyBehavior\헤더 파일">
+      <UniqueIdentifier>{e498a051-d9a0-47a3-9e49-9e747687965a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck">
+      <UniqueIdentifier>{4289390f-f34f-403c-b226-06aa111691d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck\.h">
+      <UniqueIdentifier>{0a17d6d0-2ae7-4318-b529-d818795a220a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck\.cpp">
+      <UniqueIdentifier>{46857cd0-6829-4bfb-8c5b-791689e80e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuackBehavior">
+      <UniqueIdentifier>{4fceb92f-14ee-4d55-ab72-79d5e467db58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuackBehavior\.cpp">
+      <UniqueIdentifier>{af8ae42b-37ed-4b74-a16a-3f0d4e391e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuackBehavior\.h">
+      <UniqueIdentifier>{14f71999-4273-48a3-b918-ddf8e43b3cb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehavior.cpp">
+      <Filter>FlyBehavior\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>FlyBehavior\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>Duck\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>Duck\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RedheadDuck.cpp">
+      <Filter>Duck\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>FlyBehavior\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quack.cpp">
+      <Filter>QuackBehavior\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>QuackBehavior\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MuteQuack.cpp">
+      <Filter>QuackBehavior\.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>FlyBehavior\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.h">
+      <Filter>FlyBehavior\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>Duck\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>Duck\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="RedheadDuck.h">
+      <Filter>Duck\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>FlyBehavior\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Quack.h">
+      <Filter>QuackBehavior\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>QuackBehavior\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MuteQuack.h">
+      <Filter>QuackBehavior\.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
