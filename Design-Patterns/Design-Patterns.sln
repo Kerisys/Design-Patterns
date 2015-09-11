@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy Pattern", "Strategy Pattern\Strategy Pattern.vcxproj", "{9701F619-C482-40EF-BF43-2AF11A872D9B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer Pattern", "Observer Pattern\Observer Pattern.vcxproj", "{CAAB3660-FD2F-45BE-8A74-A879B1415721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{9701F619-C482-40EF-BF43-2AF11A872D9B}.Debug|Win32.Build.0 = Debug|Win32
 		{9701F619-C482-40EF-BF43-2AF11A872D9B}.Release|Win32.ActiveCfg = Release|Win32
 		{9701F619-C482-40EF-BF43-2AF11A872D9B}.Release|Win32.Build.0 = Release|Win32
+		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Debug|Win32.Build.0 = Debug|Win32
+		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Release|Win32.ActiveCfg = Release|Win32
+		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
