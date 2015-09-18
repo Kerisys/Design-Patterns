@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy Pattern", "Strateg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer Pattern", "Observer Pattern\Observer Pattern.vcxproj", "{CAAB3660-FD2F-45BE-8A74-A879B1415721}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.vcxproj", "{740D675E-BC4A-4368-AAD9-50C6ED40ADBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Debug|Win32.Build.0 = Debug|Win32
 		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Release|Win32.ActiveCfg = Release|Win32
 		{CAAB3660-FD2F-45BE-8A74-A879B1415721}.Release|Win32.Build.0 = Release|Win32
+		{740D675E-BC4A-4368-AAD9-50C6ED40ADBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{740D675E-BC4A-4368-AAD9-50C6ED40ADBF}.Debug|Win32.Build.0 = Debug|Win32
+		{740D675E-BC4A-4368-AAD9-50C6ED40ADBF}.Release|Win32.ActiveCfg = Release|Win32
+		{740D675E-BC4A-4368-AAD9-50C6ED40ADBF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
